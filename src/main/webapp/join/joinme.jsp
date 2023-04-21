@@ -71,6 +71,23 @@
 
         <div class="card card-body bg-light mt-5 mx-3">
             <h3 class="mb-5">일반회원</h3>
+
+            <form name="joinfrm" id="joinfrm">
+                <div class="row"></div>
+
+                <div class="row">
+                    <div class="col text-center">
+                        <hr class="w-75 mx-auto">
+                        <button type="button" id="joinbtn"
+                                class="btn btn-primary">
+                            <i class="fas fa-check-circle"></i> 입력완료</button>
+                        <button type="button" id="cancelbtn"
+                                class="btn btn-danger">
+                            <i class="fas fa-times-circle"></i> 입력취소</button>
+                    </div>
+                </div>
+            </form>
+
         </div>
 
         <!-- 우편번호 폼 모달 -->
