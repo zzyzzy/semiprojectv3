@@ -37,7 +37,12 @@
         </nav>
 
         <div id="main"></div>
-        <footer></footer>
+
+        <footer>
+            <h6 class="col text-end bg-dark bg-opacity-10 p-3">
+                Copyright &copy; Lorem Ipsum 2023. siestageek.
+                All Rights Reserved. <br/> Created by Bootstrap5.</h6>
+        </footer>
     </div>
 
     <!-- 로그인 폼 모달 -->
