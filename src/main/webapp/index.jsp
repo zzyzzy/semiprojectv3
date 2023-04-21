@@ -46,7 +46,12 @@
                     <img src="/img/gendo.jpg" class="img-fluid">
                 </div>
             </div>
-            <div class="row"></div>
+            <div class="row">
+                <div class="col-8 offset-2 text-center p-3">
+                    <p>Duis aliquet viverra nibh, ac placerat justo. Aenean et fringilla nisl. Curabitur gravida turpis eget mi tempus interdum. Suspendisse aliquet mi a ipsum porta pellentesque. Sed dui mauris, volutpat id viverra at, bibendum sed turpis. Curabitur magna odio, tempor eget tellus vel, molestie condimentum leo. Cras vestibulum vehicula porttitor. Vestibulum quis arcu at ante scelerisque pellentesque lacinia vel nulla. Duis aliquet feugiat sapien sed iaculis. Praesent non luctus sem. Duis consectetur, justo a fringilla iaculis, dui dui aliquam elit, eget venenatis felis nisi vitae nulla. Maecenas non urna eget tortor tempus pulvinar. Nulla sit amet enim a nunc tristique interdum a id diam. Duis pharetra purus sit amet nunc posuere, vitae rutrum turpis sollicitudin. Morbi vulputate interdum sem.</p>
+                    <div><button class="btn btn-success">지금 바로 시작하기</button></div>
+                </div>
+            </div>
             <div class="row"></div>
         </div>
 
