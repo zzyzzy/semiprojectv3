@@ -36,7 +36,19 @@
             </ul>
         </nav>
 
-        <div id="main"></div>
+        <div id="main">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-1 text-center p-3">
+                                超機密 PROJECT 補完計劃</h1>
+                </div>
+                <div class="col-6 offset-3">
+                    <img src="/img/gendo.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="row"></div>
+            <div class="row"></div>
+        </div>
 
         <footer>
             <h6 class="col text-end bg-dark bg-opacity-10 p-3">
