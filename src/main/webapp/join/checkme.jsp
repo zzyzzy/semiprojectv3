@@ -71,7 +71,7 @@
         </div>
 
         <div class="card card-body bg-light mt-5 mx-3">
-            <h3>회원가입</h3>
+            <h3 class="mb-5">회원가입</h3>
             <form id="checkfrm1" name="checkfrm1">
                 <div class="row">
                     <div class="col-5 offset-1">
@@ -118,7 +118,7 @@
                         </div>
                         <div class="row mb-3">
                             <label for="gender"
-                                   class="col-4 col-form-label text-warning text-end">성별</label>
+                                   class="col-3 col-form-label text-warning text-end">성별</label>
                                 <div class="col-3 mt-2">
                                     <div class="form-check">
                                         <input type="radio" id="gmale" name="gender"
@@ -160,11 +160,41 @@
         </div>
 
         <div class="card card-body bg-light mt-5 mx-3">
-            <h3>실명확인 회원가입</h3>
+            <h3 class="mb-5">실명확인 회원가입</h3>
             <form id="checkfrm2" name="checkfrm2">
                 <div class="row">
                     <div class="col-5 offset-1">
-                        
+                        <div class="row mb-3">
+                            <label for="name2"
+                                   class="col-3 col-form-label text-warning text-end">이름</label>
+                            <div class="col-6">
+                                <input type="text" name="name" id="name2"
+                                       class="form-control border-warning"></div>
+                        </div>
+                        <div class="row mb-2">
+                            <label for="jumin1"
+                                   class="col-3 col-form-label text-warning text-end">주민번호</label>
+                            <div class="col-3">
+                                <input type="text" name="jumin1" id="jumin1"
+                                   class="form-control border-warning">
+                            </div>
+                            <div class="col-3">
+                                <input type="text" name="jumin2" id="jumin2"
+                                       class="form-control border-warning">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label class="col-3 col-form-label text-warning">&nbsp;</label>
+                            <div class="col-7 mt-2">
+                                <div class="form-check">
+                                    <input type="checkbox" id="chkjumin" name="chkjumin"
+                                           value="y" class="form-check-input">
+                                    <label for="chkjumin"
+                                           class="form-check-label text-warning">
+                                            주민번호 처리에 동의합니다</label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-5">
                         <ul>
