@@ -238,8 +238,8 @@
                     </div>
                     <div class="modal-body">
                         <form name="zipfrm" id="zipfrm">
-                            <div class="row">
-                                <label class="col-3 form-label text-end" for="dong">
+                            <div class="row justify-content-center align-items-center">
+                                <label class="col-3 form-label text-end ms-5" for="dong">
                                     검색하실 주소의<br> 동이름을 입력하세요</label>
                                 <div class="col-4">
                                     <input type="text" name="dong" id="dong"
@@ -248,8 +248,38 @@
                                     <button type="button" class="btn btn-primary" id="findzipbtn">
                                         <i class="fas fa-search"></i>검색하기</button>
                                 </div>
+                                <hr class="w-75 mx-auto">
+                                <p class="col-12 text-danger text-center">
+                                    지역의 읍/면/동의 이름을 공백없이 입력하신 후,
+                                    [검색하기] 버튼을 클릭하세요</p>
                             </div>
-                            <div class="row"></div>
+                            <div class="row">
+                                <div class="col-8 offset-2">
+                                    <select class="form-select" id="addrlist"
+                                            name="addrlist" size="10">
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                        <option>123-456 서울 구로구 구로동</option>
+                                    </select>
+                                </div>
+                            </div>
                         </form>
                     </div>
                     <div class="modal-footer">
